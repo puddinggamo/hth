@@ -27,12 +27,12 @@ print(number_list[:3])
 print(number_list[-3:])
 
  # Task 3: Working with dictionary 
- books = [' orv',:'alien stage',:'hunger games',:'harry potter',:'game of thrones']
 
- print(books.keys())
- print(books.values())
- print(books.get('alien stage'))
- books.pop('orv')
- print(books)
- del books['alien stage']
- print(books)
+books = {'Dr. Seuss': 'Cat in the Hat', 'JK Rowling': 'Harry Potter','Suzanne Collin':'The Hunger Games', 'Jeff Kinne': 'Diary of the Wimpy Kid'}
+print(books.keys())
+print(books.values()) 
+print(books.get('Dr. Seuss'))
+books.pop('Suzanne Collin')
+print(books)
+del books['Dr. Seuss']
+print(books)
